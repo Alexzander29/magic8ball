@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	var magic8Ball = {};
-	magic8Ball.listOfAnswers = ["Yes", "No", "Maybe", "Not today", "Indubitably", "Definitely", "Ask again later"];
+	magic8Ball.listOfAnswers = ["Yes", "No", "Maybe", "Not today", "Indubitably", "Definitely", "Ask again later", "Sources say yes", "Perhaps", "Absolutely", "Of course", "It doesn't look good"];
 	$("#answer").hide();
 	magic8Ball.askQuestion = function(question) {
     $("#8ball").effect("shake");
